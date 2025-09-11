@@ -16,11 +16,11 @@ Aplikasi menggunakan template engine yang tidak melakukan sanitasi input dengan 
    
 3. Coba input payload SSTI sederhana, misal: `{{7*7}}` pada field username atau password.
 
-[Login](https://github.com/masibelajar/KWA-A-2025/blob/main/d1/SSTI1.1.png)
+![Login](https://github.com/masibelajar/KWA-A-2025/blob/main/d1/SSTI1.1.png)
 
 5. Jika output pada halaman berubah menjadi `49`, maka aplikasi rentan SSTI.
 
-[Output](https://github.com/masibelajar/KWA-A-2025/blob/main/d1/SSTI1.2.png)
+![Output](https://github.com/masibelajar/KWA-A-2025/blob/main/d1/SSTI1.2.png)
 
 
 5. Lanjutkan eksploitasi dengan payload lain, misal untuk membaca file:
@@ -29,7 +29,7 @@ Aplikasi menggunakan template engine yang tidak melakukan sanitasi input dengan 
    ```
 6. Jika berhasil, Anda dapat membaca file sensitif pada server.
    
-[Flag](https://github.com/masibelajar/KWA-A-2025/blob/main/d1/SSTI1.3.png)
+![Flag](https://github.com/masibelajar/KWA-A-2025/blob/main/d1/SSTI1.3.png)
 
 ## Payload yang Digunakan
 
@@ -41,6 +41,7 @@ Aplikasi menggunakan template engine yang tidak melakukan sanitasi input dengan 
 - [PayloadAllTheThings - SSTI](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection)
 
 - [OWASP SSTI](https://owasp.org/www-community/vulnerabilities/Server-Side_Template_Injection)
+
 
 
 
