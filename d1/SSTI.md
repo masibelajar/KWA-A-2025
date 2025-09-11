@@ -4,7 +4,7 @@
 
 Pada challenge ini, diberikan sebuah aplikasi login admin yang rentan terhadap **Server-Side Template Injection (SSTI)**.
 
-[SSTI1](https://github.com/masibelajar/KWA-A-2025/blob/main/d1/SSTI1.png)
+![SSTI1](https://github.com/masibelajar/KWA-A-2025/blob/main/d1/SSTI1.png)
 
 ## Identifikasi Kerentanan
 
@@ -41,5 +41,6 @@ Aplikasi menggunakan template engine yang tidak melakukan sanitasi input dengan 
 - [PayloadAllTheThings - SSTI](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection)
 
 - [OWASP SSTI](https://owasp.org/www-community/vulnerabilities/Server-Side_Template_Injection)
+
 
 
