@@ -1,0 +1,27 @@
+# Laporan Praktikum Week 6: Error Handling
+
+## 1. Tujuan
+Memahami konsep error handling pada aplikasi web serta mengidentifikasi potensi risiko keamanan akibat penanganan error yang kurang tepat.
+
+## 2. Dasar Teori
+Error handling adalah proses menangani kesalahan yang terjadi selama eksekusi aplikasi. Penanganan error yang tidak tepat dapat menyebabkan informasi sensitif terekspos, seperti stack trace, path file, atau detail server, yang dapat dimanfaatkan oleh penyerang untuk melakukan eksploitasi lebih lanjut.
+
+## 3. Praktikum
+
+### Langkah-langkah:
+1. Mengakses endpoint yang tidak tersedia pada aplikasi Juice Shop.
+2. Mengamati pesan error yang muncul di browser.
+3. Menganalisis detail pesan error yang diberikan oleh server.
+
+### Contoh Hasil:
+Ketika mengakses endpoint yang tidak ada, aplikasi menampilkan pesan seperti:
+
+![Contoh Error Juice Shop](https://github.com/Keamanan-Web-dan-Aplikasi-2025/tugas-kwa-masibelajar/tree/main/week-6/img/error_juice_shop.png)
+
+Pada konfigurasi tertentu, aplikasi dapat menampilkan stack trace atau detail error lain yang seharusnya tidak diketahui oleh pengguna.
+
+### Analisis:
+Pesan error yang terlalu detail dapat memberikan informasi tentang struktur aplikasi, teknologi yang digunakan, dan potensi celah keamanan. Hal ini dapat dimanfaatkan oleh penyerang untuk melakukan footprinting dan eksploitasi lebih lanjut.
+
+## 4. Kesimpulan
+Penanganan error yang baik sangat penting untuk menjaga keamanan aplikasi. Pesan error sebaiknya dibuat generik dan tidak mengungkapkan detail internal aplikasi kepada pengguna.
